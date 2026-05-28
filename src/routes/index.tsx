@@ -312,7 +312,7 @@ export default function DieSasieLanding() {
             <div className="about-stats">
               <div className="stat">
                 <div className="stat-number">7+</div>
-                <div className="stat-label">Beers on Tap</div>
+                <div className="stat-label">Drinks on Tap</div>
               </div>
               <div className="stat">
                 <div className="stat-number">50+</div>
