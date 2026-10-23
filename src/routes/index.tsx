@@ -188,39 +188,39 @@ const menuData: Record<string, MenuEntry[]> = {
 const specials = [
   {
     day: 'Monday',
-    name: 'Pizza Monday',
-    desc: 'Buy one pizza and get the second one at half price.',
-    price: 'BOGO ½ Off',
+    name: 'Rib Monday',
+    desc: '1kg Ribs served with chips and coleslaw.',
+    price: 'R250',
   },
   {
     day: 'Tuesday',
-    name: 'Rib Tuesday',
-    desc: '500g Ribs served with chips, coleslaw, and a Glenhoff Draught or glass of wine.',
-    price: 'R180',
+    name: 'Steak & Egg Tuesday',
+    desc: '200g Steak and egg served with chips.',
+    price: 'R150',
   },
   {
     day: 'Wednesday',
     name: 'Schnitzel Wednesday',
-    desc: 'Chicken Schnitzel with sauce and a side of your choice, served with a glass of wine.',
-    price: 'R140',
-  },
-  {
-    day: "Thursday — Pensioners'",
-    name: "Pensioners' Special",
-    desc: 'Light breakfast with a cappuccino.',
-    price: 'R50',
+    desc: 'Chicken Schnitzel with sauce and chips.',
+    price: 'R99',
   },
   {
     day: 'Thursday',
-    name: 'Double Burger Thursday',
-    desc: 'Any two burgers.',
-    price: 'R210',
+    name: 'Pizza Thursday',
+    desc: 'Get a free kiddies pizza with any 2 large pizzas.',
+    price: 'Free Kiddies Pizza',
   },
   {
     day: 'Friday',
-    name: 'Steak Friday',
-    desc: '200g Steak with a glass of wine or Glenhoff Draught on tap.',
-    price: 'R190',
+    name: 'Ribs & Wings Friday',
+    desc: 'Ribs and wings combo served with chips and onion rings.',
+    price: 'R125',
+  },
+  {
+    day: 'Everyday',
+    name: "Pensioner's Breakfast",
+    desc: 'Light breakfast with a cappuccino.',
+    price: 'R50',
   },
 ]
 
@@ -355,6 +355,7 @@ export default function DieSasieLanding() {
             </div>
           ))}
         </div>
+        <p className="specials-terms">Ts &amp; Cs apply.</p>
       </section>
 
       {/* MENU */}
